@@ -2450,6 +2450,12 @@
 		(uuid "10a700f7-07b8-4b33-a1d0-9aed664bbce7")
 	)
 	(junction
+		(at 245.11 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10efc555-1e6a-44ca-92d0-7f5a18478877")
+	)
+	(junction
 		(at 257.81 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2460,6 +2466,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "423173af-bf57-4592-a9cc-73097cf61f41")
+	)
+	(junction
+		(at 270.51 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47d4d53d-3914-4423-9a70-1c7a4460718e")
 	)
 	(junction
 		(at 74.93 148.59)
@@ -2528,20 +2540,8 @@
 		(uuid "fc6ff622-2f37-4663-a632-9b04c50c9f0b")
 	)
 	(no_connect
-		(at 270.51 138.43)
-		(uuid "14e1ebd4-e5af-416c-b872-a2f2b07e3e99")
-	)
-	(no_connect
 		(at 176.53 86.36)
 		(uuid "1b6a2d38-b318-4d8e-bf2d-64781207c9c9")
-	)
-	(no_connect
-		(at 270.51 133.35)
-		(uuid "4fa2aaf4-a905-4b1e-ada3-30630d60e0c9")
-	)
-	(no_connect
-		(at 245.11 135.89)
-		(uuid "6baf280d-49c6-499c-b1dc-598d17aefeb3")
 	)
 	(no_connect
 		(at 176.53 83.82)
@@ -2563,6 +2563,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 135.89) (xy 245.11 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049fd252-fad2-4ebd-a75c-08265ee765b8")
+	)
+	(wire
+		(pts
 			(xy 245.11 143.51) (xy 245.11 151.13)
 		)
 		(stroke
@@ -2580,6 +2590,16 @@
 			(type default)
 		)
 		(uuid "0c588631-7585-4329-acf4-e8a890f34528")
+	)
+	(wire
+		(pts
+			(xy 270.51 133.35) (xy 279.4 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1037a8e8-321f-4b93-98b1-9864a3380634")
 	)
 	(wire
 		(pts
@@ -2693,6 +2713,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 151.13) (xy 257.81 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8648a835-c920-4699-a85f-9cf0a399a025")
+	)
+	(wire
+		(pts
 			(xy 44.45 148.59) (xy 52.07 148.59)
 		)
 		(stroke
@@ -2700,6 +2730,16 @@
 			(type default)
 		)
 		(uuid "8a7c2e47-8e5d-41ce-b993-00bb87e4443a")
+	)
+	(wire
+		(pts
+			(xy 270.51 146.05) (xy 270.51 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93959347-5fe2-4581-b502-b6ece907e774")
 	)
 	(wire
 		(pts
@@ -2863,6 +2903,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 143.51) (xy 245.11 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3db1026-f460-4db5-8eac-ced8839cf07c")
+	)
+	(wire
+		(pts
 			(xy 212.09 54.61) (xy 227.33 54.61)
 		)
 		(stroke
@@ -2870,6 +2920,26 @@
 			(type default)
 		)
 		(uuid "f4035d93-9020-4227-9d43-94b0389afa34")
+	)
+	(wire
+		(pts
+			(xy 279.4 140.97) (xy 279.4 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b902ea-57b8-4c8c-b890-496296e5150e")
+	)
+	(wire
+		(pts
+			(xy 279.4 146.05) (xy 270.51 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb7f2cc-f977-41cb-bbe2-024fefbbd64d")
 	)
 	(rectangle
 		(start 210.0072 12.065)
@@ -4048,6 +4118,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 270.51 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a69f00f-e77c-4d84-a4cb-ab7f84778488")
+		(property "Reference" "R19"
+			(at 273.05 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50R"
+			(at 273.05 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 271.526 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 270.51 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "955d91cc-dc20-4669-a4be-bfc132c74ace")
+		)
+		(pin "2"
+			(uuid "1ac5a15a-f6e2-4076-83c7-8903ab695af0")
+		)
+		(instances
+			(project "EEG amp"
+				(path "/828fcb53-5b19-4d8c-be04-4f1b7f282370"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 227.33 58.42 0)
 		(unit 1)
@@ -4248,6 +4388,76 @@
 			(project "EEG amp"
 				(path "/828fcb53-5b19-4d8c-be04-4f1b7f282370"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 227.33 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f94c234-f103-4607-b82b-2b3177a2c8de")
+		(property "Reference" "R21"
+			(at 229.87 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50R"
+			(at 229.87 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 228.346 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 227.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a76646c-2704-4ef7-b159-6d4aa1172efc")
+		)
+		(pin "2"
+			(uuid "d9cb176f-1364-4ab2-92e3-0d54325e169d")
+		)
+		(instances
+			(project "EEG amp"
+				(path "/828fcb53-5b19-4d8c-be04-4f1b7f282370"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -4868,6 +5078,76 @@
 			(project "EEG amp"
 				(path "/828fcb53-5b19-4d8c-be04-4f1b7f282370"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 279.4 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bb5f2c3-c714-4052-a1f5-a42becf336e8")
+		(property "Reference" "R20"
+			(at 281.94 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50R"
+			(at 281.94 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 280.416 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 279.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcbba415-ace0-44ad-8df3-fe2cb29b6036")
+		)
+		(pin "2"
+			(uuid "85e2fc6e-7b25-4d7d-be52-722bf0404cb9")
+		)
+		(instances
+			(project "EEG amp"
+				(path "/828fcb53-5b19-4d8c-be04-4f1b7f282370"
+					(reference "R20")
 					(unit 1)
 				)
 			)
