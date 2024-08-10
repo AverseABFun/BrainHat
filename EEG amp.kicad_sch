@@ -5671,19 +5671,21 @@
 		(fields_autoplaced yes)
 		(uuid "669ebefe-5189-4fcd-a6c9-8f1a63375557")
 		(property "Reference" "R13"
-			(at 154.94 95.25 90)
+			(at 151.13 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "1k"
-			(at 152.4 95.25 90)
+			(at 151.13 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
