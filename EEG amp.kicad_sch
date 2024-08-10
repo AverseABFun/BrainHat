@@ -2842,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 92.71) (xy 242.57 92.71)
+			(xy 234.95 95.25) (xy 238.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3236,6 +3236,28 @@
 	)
 	(global_label "connected1"
 		(shape input)
+		(at 251.46 80.01 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02df54ba-d128-4bb3-a665-2f172b1a5de3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 93.8808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "connected1"
+		(shape input)
 		(at 184.15 41.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3390,7 +3412,7 @@
 	)
 	(global_label "switch"
 		(shape input)
-		(at 250.19 92.71 270)
+		(at 246.38 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3400,7 +3422,7 @@
 		)
 		(uuid "300f05d1-5667-4043-88ed-2c55d21c528d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.19 101.6219 90)
+			(at 246.38 104.1619 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4050,7 @@
 	)
 	(global_label "shutdown"
 		(shape input)
-		(at 231.14 78.74 180)
+		(at 226.06 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4038,7 +4060,7 @@
 		)
 		(uuid "c677f556-b1d5-4266-bc0d-4c64aa692c87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.3255 78.74 0)
+			(at 214.2455 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,6 +5437,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 247.65 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f334ef0-1b51-4808-a1ee-787a280ce080")
+		(property "Reference" "D4"
+			(at 249.2375 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red"
+			(at 249.2375 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 247.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 247.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b0cdeb9-3464-409b-93e6-c4556f2c0f7c")
+		)
+		(pin "1"
+			(uuid "9fbf0f36-be9f-4fb1-ab5a-a2a235e8abc2")
+		)
+		(instances
+			(project "EEG amp"
+				(path "/828fcb53-5b19-4d8c-be04-4f1b7f282370"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 200.66 49.53 0)
 		(unit 1)
@@ -6107,7 +6197,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 246.38 92.71 180)
+		(at 242.57 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6116,7 +6206,7 @@
 		(fields_autoplaced yes)
 		(uuid "735d8948-9f13-4b4c-9b59-72d129d71a0b")
 		(property "Reference" "D3"
-			(at 247.9675 85.09 0)
+			(at 244.1575 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +6214,7 @@
 			)
 		)
 		(property "Value" "Yellow - 1e"
-			(at 247.9675 87.63 0)
+			(at 244.1575 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +6222,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 246.38 92.71 0)
+			(at 242.57 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,7 +6231,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 92.71 0)
+			(at 242.57 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +6240,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 246.38 92.71 0)
+			(at 242.57 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,6 +6536,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 243.84 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a820cff-840c-4d46-9703-94f6115cc79a")
+		(property "Reference" "#PWR024"
+			(at 243.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 243.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 243.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c71861d9-2d94-4e7d-a44b-7f3e494e3a60")
+		)
+		(instances
+			(project "EEG amp"
+				(path "/828fcb53-5b19-4d8c-be04-4f1b7f282370"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 165.1 109.22 180)
 		(unit 1)
@@ -6582,7 +6738,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 238.76 92.71 0)
+		(at 234.95 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6591,7 +6747,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c9b41d6-daf2-40af-9533-a697183b29d1")
 		(property "Reference" "#PWR019"
-			(at 238.76 96.52 0)
+			(at 234.95 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,7 +6756,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 238.76 87.63 0)
+			(at 234.95 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,7 +6764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 92.71 0)
+			(at 234.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +6773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 92.71 0)
+			(at 234.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6626,7 +6782,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 238.76 92.71 0)
+			(at 234.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6870,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 234.95 78.74 180)
+		(at 229.87 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6723,7 +6879,7 @@
 		(fields_autoplaced yes)
 		(uuid "9555bca4-0966-460c-9540-213238ae10bb")
 		(property "Reference" "D1"
-			(at 236.5375 71.12 0)
+			(at 231.4575 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,7 +6887,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 236.5375 73.66 0)
+			(at 231.4575 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +6895,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 234.95 78.74 0)
+			(at 229.87 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +6904,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 78.74 0)
+			(at 229.87 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +6913,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 234.95 78.74 0)
+			(at 229.87 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8425,7 +8581,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 78.74 0)
+		(at 233.68 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8434,7 +8590,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9baa60a-538d-4ce9-a3b3-83f33a351bd4")
 		(property "Reference" "#PWR016"
-			(at 238.76 85.09 0)
+			(at 233.68 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8443,7 +8599,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 83.82 0)
+			(at 233.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8451,7 +8607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 78.74 0)
+			(at 233.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8460,7 +8616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 78.74 0)
+			(at 233.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8469,7 +8625,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 78.74 0)
+			(at 233.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
