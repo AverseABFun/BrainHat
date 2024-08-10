@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "AD8232"
-			(at 0 6.35 0)
+			(at 0 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,7 +91,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 10.16 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -109,7 +109,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 7.62 180)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "LOD-"
 					(effects
@@ -127,7 +127,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 5.08 180)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "LOD+"
 					(effects
@@ -199,7 +199,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -15.24 90)
+				(at -1.27 -15.24 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -235,7 +235,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -5.08 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "REFIN"
 					(effects
@@ -271,7 +271,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 7.62 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -289,7 +289,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -10.16 180)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "HPSENSE"
 					(effects
@@ -306,8 +306,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 1.27 -15.24 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
-				(at -12.7 5.08 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "~{IN}"
 					(effects
@@ -325,7 +343,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 2.54 0)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "RLDFB"
 					(effects
@@ -343,7 +361,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 0 0)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "RLD"
 					(effects
@@ -361,7 +379,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -2.54 0)
+				(at -12.7 -10.16 0)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -397,7 +415,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -7.62 0)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "REFOUT"
 					(effects
@@ -415,7 +433,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -10.16 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "OPAMP-"
 					(effects
