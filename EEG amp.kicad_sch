@@ -3495,28 +3495,6 @@
 			)
 		)
 	)
-	(global_label "1o"
-		(shape input)
-		(at 165.1 105.41 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d9fb16c2-c926-4caf-a4cc-c310890af0bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1 100.0663 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "1e"
 		(shape output)
 		(at 266.7 96.52 180)
@@ -3579,6 +3557,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UFOUT1"
+		(shape input)
+		(at 165.1 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df3e1813-e8fc-4071-a0aa-1cccab922733")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.1 95.1676 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4596,7 +4596,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+		(property "Footprint" "Personal:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Horizontal"
 			(at 147.574 87.376 90)
 			(effects
 				(font
