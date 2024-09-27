@@ -1,1 +1,1 @@
-# EEG-hat
+# BrainHat
