@@ -13893,6 +13893,19 @@
 		(layer "Edge.Cuts")
 		(uuid "6bea253f-6898-4d14-bfe8-ca8964ffe6ea")
 	)
+	(gr_text "SCLK"
+		(at 187.8 71.4 0)
+		(layer "F.SilkS")
+		(uuid "052e9a19-32c9-4524-8f89-2ac4087b2915")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
 	(gr_text "->Ie"
 		(at 141.5 89.9 0)
 		(layer "F.SilkS")
@@ -13904,6 +13917,45 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "2e"
+		(at 183.6 89.4 0)
+		(layer "F.SilkS")
+		(uuid "2a1f9bc3-3999-42a1-adb7-24b8fa7da1f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "DOUT\n~{DRDY}"
+		(at 187.8 74.2 0)
+		(layer "F.SilkS")
+		(uuid "2bf7132e-f031-4b27-8d84-3e7f913055da")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "GND"
+		(at 179.8 77.2 0)
+		(layer "F.SilkS")
+		(uuid "3ec62701-0805-445f-b534-62bfdde77924")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom)
 		)
 	)
 	(gr_text "Ie"
@@ -13930,6 +13982,97 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "Out"
+		(at 187.6 68.8 0)
+		(layer "F.SilkS")
+		(uuid "4e6d48fd-949c-413b-b169-8f329672f072")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "Aref"
+		(at 179.8 74.8 0)
+		(layer "F.SilkS")
+		(uuid "64f005b9-a5ab-4427-bb62-9cf07c1e4c3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "+5V"
+		(at 179.8 69.8 0)
+		(layer "F.SilkS")
+		(uuid "6f9098a1-385f-411b-ba60-93bcae4d5b1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "Ge"
+		(at 183.6 81.8 0)
+		(layer "F.SilkS")
+		(uuid "8912d322-7d82-4107-8dff-787a87b95506")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "+3.3V"
+		(at 179.8 72.2 0)
+		(layer "F.SilkS")
+		(uuid "9d76d778-2680-4b73-b912-62985f3e9be1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "CLK"
+		(at 187.8 76.8 0)
+		(layer "F.SilkS")
+		(uuid "a2386af0-3f31-4cd6-8d00-b2c1bcdeec16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "1e"
+		(at 183.6 84.4 0)
+		(layer "F.SilkS")
+		(uuid "a9f53ce3-f2d3-4e76-ad58-bbd3ff46c9b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "Art by the amazing @abhay in the hackclub slack!"
@@ -13971,6 +14114,32 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Ic"
+		(at 188 86.8 0)
+		(layer "F.SilkS")
+		(uuid "bd5122cf-6708-4a83-a194-b7779ad1deba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "Rc"
+		(at 188 84.4 0)
+		(layer "F.SilkS")
+		(uuid "c2620b2e-72e8-4931-a0eb-f6dafe558bb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
 	(gr_text "On"
 		(at 140.2 82.5 0)
 		(layer "F.SilkS")
@@ -13984,6 +14153,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "~{SD}"
+		(at 188 89.6 0)
+		(layer "F.SilkS")
+		(uuid "e6ea4ded-bc28-40e6-abcd-f6de8178f085")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
 	(gr_text "Brain Hat R2"
 		(at 192.4 59 0)
 		(layer "F.SilkS")
@@ -13994,6 +14176,32 @@
 				(thickness 0.24)
 				(bold yes)
 			)
+		)
+	)
+	(gr_text "SW"
+		(at 188 92 0)
+		(layer "F.SilkS")
+		(uuid "edd9eb8d-dbe3-464e-ae9f-d1b056b4bd10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(gr_text "Re"
+		(at 183.6 92 0)
+		(layer "F.SilkS")
+		(uuid "fcc9a4af-a798-4554-a8fe-5842377d755e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"Ground plane\": {\n    \"HSpacing\": \"7\",\n    \"VSpacing\": \"7\",\n    \"Clearance\": \"0\",\n    \"Randomize\": false\n  }\n}"
