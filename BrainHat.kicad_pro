@@ -98,11 +98,7 @@
         "silk_overlap|185292164|65040000|5dfd8a61-0d64-4a76-a1b1-988afe202d79|966a002a-b931-417d-801f-31ffbbe5855c",
         "silk_overlap|185292164|65760000|42bccf68-db65-4303-a81f-a400864b06c8|966a002a-b931-417d-801f-31ffbbe5855c",
         "silk_overlap|185507836|65040000|5dfd8a61-0d64-4a76-a1b1-988afe202d79|2ec7d2b0-3c73-4f20-a126-b61e25b97798",
-        "silk_overlap|185507836|65760000|42bccf68-db65-4303-a81f-a400864b06c8|2ec7d2b0-3c73-4f20-a126-b61e25b97798",
-        "silk_overlap|200820000|74446359|75768c52-0cb6-45dd-9167-a156466ad8b0|cba74f5e-079d-42f7-8afc-b3e478698b51",
-        "silk_overlap|200820000|74753641|75768c52-0cb6-45dd-9167-a156466ad8b0|4de780fe-454d-4a07-ad74-477527bcc692",
-        "silk_overlap|201580000|74446359|9f095ed4-f4ec-4431-9afc-b6018c672763|cba74f5e-079d-42f7-8afc-b3e478698b51",
-        "silk_overlap|201580000|74753641|9f095ed4-f4ec-4431-9afc-b6018c672763|4de780fe-454d-4a07-ad74-477527bcc692"
+        "silk_overlap|185507836|65760000|42bccf68-db65-4303-a81f-a400864b06c8|2ec7d2b0-3c73-4f20-a126-b61e25b97798"
       ],
       "meta": {
         "version": 2
@@ -684,7 +680,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -708,7 +704,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
           "show": true
