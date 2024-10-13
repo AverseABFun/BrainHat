@@ -613,7 +613,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BrainHat.step",
       "svg": "",
       "vrml": "BrainHat.wrl"
     },
