@@ -1,1 +1,2 @@
 # BrainHat
+BrainHat is a project I'm working on to make a cost-effective, affordable EEG headset to better the lives of people with. The current status is an EEG headset that can read one electrode and store that onto a MicroSD card in a Raspberry Pi Zero W. The current headset contains the custom amplifier(files for which in this project), a Raspberry Pi Zero W, and my flipper zero. Code for both of the microcontrollers is in https://github.com/AverseABFun/brainhat-code.
